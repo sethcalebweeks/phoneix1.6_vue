@@ -50,6 +50,8 @@
 import Component from "./components/Component.vue";
 import Vue from "vue";
 
+// import socket from "./user_socket"
+
 new Vue({
   el: "#app",
   render: (h) => h(Component),
